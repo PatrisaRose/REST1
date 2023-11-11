@@ -1,4 +1,5 @@
 import { AdatLeiro } from "../AdatLeiro.js";
+import UrlapView from "../Urlap/UrlapView.js";
 import FejlecView from "./FejlecView.js";
 import SorView from "./SorView.js";
 
@@ -14,6 +15,7 @@ export default class TablaView {
     this.theadElem = szuloELem.find("thead")
     console.log(this.tbodyElem);
     new FejlecView(AdatLeiro, this.theadElem)
+    
     this.sorMegjelenit();
   }
 
