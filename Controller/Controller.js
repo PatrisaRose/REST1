@@ -7,7 +7,7 @@ export default class Controller{
         this.dataService = new DataService();
 
         this.dataService.getData("adatok.json", this.megjelenit /*<--callback függvény*/)
-       new UrlapView();
+       new UrlapView($(".urlap"));
     }
 
     megjelenit(lista){
