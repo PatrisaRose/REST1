@@ -9,5 +9,6 @@ Axios használatával MVC Modell
 3. Meghívjuk a Axios get metódusát, paraméterek: végpont, callback 
 4. a Callback függvényben példányosítjuk a View-t - TablaView 
 5. TablaView példányosítja a sorokat
+6. Eseménykezelők hozzáadása
 
 ![Adatok táblázatban megjelenítése](Képernyőkép%202023-11-18%20095329.png)
